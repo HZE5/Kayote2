@@ -1,0 +1,112 @@
+.dropbtn {
+    background-color: #0ae4a2;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 5em;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(9, 255, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd; text-decoration: dashed;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #0ae4a2;}
+
+  #nav{
+    text-decoration: none;
+    background-color:rgb(43, 255, 0);
+    align-items: center;
+    height: auto;
+    font-size:1rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.nl{
+    list-style: none;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.important{
+    list-style: none;
+    color: #f1f1f1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+}
+#li{
+    display: flex;
+    margin-left: 30em;
+    text-decoration: none;
+}
+.qw{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+#search{
+  background-color: #efefef;
+}
+#about{
+    width: 80em;
+    height: 30em;
+    background-color: #ffffff;
+    margin-left: 5em;
+    box-shadow: 0px 8px 16px 0px black;
+    align-items: center;
+}
+#about h2{
+    text-align: center;
+    margin-top: 2em;
+}
+#circle{
+  width: 5em;
+  height: 5em;
+  border-radius: 5em;
+  border:1px solid black;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+#news h2,h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  #news{
+    overflow-y: scroll;
+  }
+  #ns{
+    display: flex;
+  }
+  #n1{
+    background-color: #0ae4a2;
+    width: 50em;
+    height: 20em;
+    margin-left: 12px;
+  }
